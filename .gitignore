@@ -1,0 +1,22 @@
+# Generic ignores
+.DS_Store
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+._*
+tmp
+venv
+*.log
+*.key
+
+# Terraform
+.history
+.terraform
+*.tfstate.*
+terraform/**/*.zip
+
+# editors
+.idea
+.vscode
+*.sw[a-z]
